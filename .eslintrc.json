@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "require-jsdoc": 0,
+        "react/react-in-jsx-scope": 0,        "linebreak-style": 0,
+        "react/prop-types": "off",
+        "no-unused-vars": "warn"
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
